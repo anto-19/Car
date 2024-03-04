@@ -1,0 +1,198 @@
+.imag-logos {
+   margin-right: 200px;
+}
+@font-face {
+   font-family: geom;
+   src: url(../public/Geom-Graphic-W03-Bold-Italic.ttf);
+}
+
+.caruselll {
+   padding: 75px 0;
+}
+.imag-logos-small {
+   display: none;
+}
+
+.poll {
+   padding: 100px 0;
+   font-family: geom;
+}
+.nav-tabs {
+   border-bottom: 0px !important;
+}
+.slick-list {
+   padding: 100px;
+}
+.callusnow {
+   background-image: url(../image/section.png);
+   min-height: 280px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 30px;
+   color: #ffffff;
+   font-family: GeomGraphicW03-BoldItalic;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 31px;
+   letter-spacing: 0em;
+   text-align: left;
+   font-family: geom;
+}
+
+.amigo {
+   width: 200px;
+   height: 45px;
+   width: 250px;
+   height: 45px;
+   font-family: geom;
+   font-size: 18px;
+   cursor: pointer;
+   background-color: var(--red);
+   width: 200px;
+   text-align: center;
+   margin: 0;
+   border-radius: 7px;
+   color: var(--white);
+   border: none;
+   margin-inline: 10px;
+   font-family: geom;
+}
+
+/* .mb-3 {
+  padding: ;
+} */
+
+.contact-header {
+   color: var(--white);
+   padding-top: 40px;
+   font-family: geom;
+   font-size: 26px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 31.2px;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: geom;
+   .contacttext {
+      max-width: 600px;
+      margin: 0 100px;
+      font-family: geom;
+   }
+}
+
+.tabs {
+   font-style: italic;
+   font-size: geom;
+   background-color: var(--red);
+   font-family: geom;
+   padding: 10px !important;
+
+   .nav-item {
+      margin-right: 20px;
+      .nav-link {
+         width: 200px;
+         padding: 10px !important;
+      }
+      .nav-link:hover {
+         border-radius: 5px;
+         background-color: white !important;
+         color: black !important;
+         padding: 10px !important;
+      }
+      .active {
+         background-color: white !important;
+         color: black !important;
+         font-family: geom;
+         padding: 10px !important;
+         border-radius: 5px;
+      }
+      button {
+         color: var(--white) !important;
+         font-style: italic;
+         font-size: geom;
+      }
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+   .home-tabs-hr {
+      margin: 0 auto !important;
+   }
+   .tabs {
+      margin: 0 auto;
+      .nav-tabs {
+         display: flex;
+         justify-content: center;
+         gap: 30px;
+      }
+      .nav-item:first-child {
+         width: 100%;
+         font-size: 24px !important;
+         button {
+            width: 100% !important;
+         }
+      }
+      .nav-item {
+         font-size: 14px !important;
+         margin-right: 0 !important;
+
+         .nav-link {
+            width: 100px !important;
+            height: 45px;
+            padding: 5px !important;
+         }
+
+         .active {
+            padding: 5px !important;
+         }
+      }
+   }
+   .imag-logos {
+      margin-right: 0 !important;
+      font-family: geom;
+   }
+   .callusnow {
+      padding-left: 0;
+      font-family: geom;
+   }
+   .contact-header {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      font-family: geom;
+   }
+   .imag-logos {
+      display: none;
+   }
+   .imag-logos-small {
+      display: block;
+   }
+}
+/* .tab-content {
+  padding: 100px 0;
+} */
+/* display: flex;
+  align-items: center; 
+
+*/
+.slick-prev:before,
+.slick-next:before {
+   font-size: 25px !important;
+   color: var(--black) !important;
+   opacity: 1 !important;
+   font-family: geom;
+
+   /* margin: 0 !important; */
+}
+
+.nav-link.active {
+   /* Your CSS styles for the active tab */
+   color: red; /* Change the text color to red as an example */
+   font-family: geom;
+}

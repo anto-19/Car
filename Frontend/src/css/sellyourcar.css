@@ -1,0 +1,272 @@
+.sellyourcar {
+   flex-wrap: wrap;
+   background-color: var(--black);
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   height: 455px;
+   background-image: url(../image/HEROSell.png);
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-size: cover;
+   padding: 0 40px;
+   font-family: geom;
+   .hero-button {
+      padding-top: 78px;
+      font-family: geom;
+   }
+   @font-face {
+      font-family: geom;
+      src: url(../public/Geom-Graphic-W03-Bold-Italic.ttf);
+   }
+
+   h2 {
+      font-size: 101px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: 122px;
+      letter-spacing: 0.06em;
+      color: var(--red);
+      font-family: geom;
+   }
+   h3 {
+      width: 900px;
+      color: var(--white);
+      font-size: 61px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: 74px;
+      letter-spacing: 0.06em;
+      font-family: geom;
+   }
+   p {
+      color: var(--white);
+      font-size: 23px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: 28px;
+      font-family: geom;
+   }
+}
+.juju {
+   min-width: 500px !important;
+   font-family: geom;
+}
+
+.entanur-input {
+   font-family: geom;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin-top: 100px;
+   .formmm {
+      max-width: 1200px !important;
+      font-family: geom;
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 121px;
+      div {
+         width: 30% !important;
+         align-items: center;
+         font-family: geom;
+      }
+      input {
+         width: 100% !important;
+         min-height: 50px !important;
+         border-radius: 8px;
+         font-family: geom;
+      }
+   }
+}
+
+.fi::file-selector-button {
+   border: none !important;
+   background-color: var(--red) !important;
+   color: white;
+   border: 3px solid red;
+   border-radius: 6px;
+   width: 100%;
+   font-family: geom;
+   cursor: pointer !important;
+   display: flex;
+   flex-direction: column !important;
+   padding: 10px;
+   height: auto !important;
+   z-index: 999;
+}
+
+.load-more {
+   background-color: transparent;
+   border: 0px;
+   background-color: #e9162f;
+   column-rule: white;
+   color: white;
+   font-family: geom;
+}
+#yes,
+#no {
+   width: 30px !important;
+   margin: 0 auto;
+   border: 10px solid red;
+   font-family: geom;
+}
+
+.radio-body {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap !important;
+   gap: 50px;
+   font-family: geom;
+}
+#number {
+   width: 200px !important;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: geom;
+}
+
+.last-one {
+   font-family: GeomGraphicW03-BoldItalic;
+   color: white;
+   flex-direction: column;
+   font-family: geom;
+   .lolo {
+      margin-left: 100px;
+      font-family: geom;
+   }
+}
+
+.donate-now {
+   list-style-type: none;
+   margin: 35px 0 0 0;
+   padding: 0;
+   font-family: geom;
+}
+
+.donate-now li {
+   float: left;
+   margin: 0 5px 0 0;
+   width: 100px;
+   height: 40px;
+   position: relative;
+   margin: 10px 0;
+   font-family: geom;
+}
+
+.donate-now label,
+.donate-now input {
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: white;
+   color: black;
+   border-radius: 8px;
+   text-align: center;
+   font-family: geom;
+}
+
+.donate-now input[type="radio"] {
+   opacity: 0.01;
+   z-index: 100;
+   font-family: geom;
+}
+
+.donate-now input[type="radio"]:checked + label,
+.Checked + label {
+   background: red;
+   font-family: geom;
+}
+
+.donate-now label {
+   padding: 5px;
+   border: 1px solid #ccc;
+   cursor: pointer;
+   z-index: 90;
+   font-family: geom;
+}
+
+.donate-now label:hover {
+   background: #ddd;
+   font-family: geom;
+}
+
+/* Mobile media */
+.filee {
+   cursor: pointer;
+}
+.sellyourcar-btn {
+   margin-bottom: 30px;
+}
+@media only screen and (max-width: 800px) {
+   .sellyourcar-btn {
+      max-width: 100% !important;
+      height: 50px !important;
+      border-radius: 8px;
+      font-family: geom;
+      max-width: 300px !important;
+   }
+   .radio-body {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap !important;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+      font-family: geom;
+   }
+   .juju {
+      min-width: 350px !important;
+      font-family: geom;
+   }
+
+   .filee {
+      display: grid;
+      gap: 30px;
+      justify-content: center !important;
+      max-width: 300px !important;
+      cursor: pointer;
+      font-family: geom;
+   }
+
+   .entanur-input {
+      gap: 20px;
+      .formmm {
+         flex-direction: column;
+         font-family: geom;
+
+         gap: 20px;
+         div {
+            width: 100% !important;
+            font-family: geom;
+         }
+      }
+      .esh-koko {
+         max-width: 95% !important;
+         font-family: geom;
+      }
+   }
+
+   .donate-now li {
+      margin: 10px 10px !important;
+      font-family: geom;
+   }
+   .sellyourcar {
+      height: 350px;
+      background-size: cover !important;
+      font-family: geom;
+   }
+}
+
+input#file-upload-button {
+   width: 100px !important;
+   font-family: geom;
+}

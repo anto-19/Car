@@ -1,0 +1,105 @@
+.hero {
+   flex-wrap: wrap;
+   background-color: var(--black);
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   height: 966px;
+   background-image: url(../image/5678.png);
+   background-repeat: no-repeat;
+   background-position: right center;
+   font-family: geom;
+   .hero-button {
+      padding-top: 78px;
+      font-family: geom;
+   }
+
+   .hero-content {
+      margin: 0 100px;
+      font-family: geom;
+   }
+   h2 {
+      font-size: 90px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: 122px;
+      letter-spacing: 0.06em;
+      color: var(--red);
+      font-family: geom;
+   }
+   h3 {
+      width: 900px;
+      color: var(--white);
+      font-size: 61px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: 74px;
+      letter-spacing: 0.06em;
+      font-family: geom;
+   }
+   p {
+      color: var(--white);
+      font-size: 23px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: 28px;
+      font-family: geom;
+   }
+}
+.hero-body {
+   padding: 0 60px;
+}
+@media only screen and (max-width: 1200px) {
+   .hero-content {
+      margin: 0 0 !important;
+      font-family: geom;
+   }
+   .hero-button {
+      padding-top: 30px !important;
+      font-family: geom;
+   }
+   .hero {
+      height: 700px;
+      background-position: bottom right !important;
+      background-size: 700px !important;
+      .hero-button {
+         padding-top: 78px;
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         flex-wrap: wrap;
+         font-family: geom;
+         .red-btn {
+            width: 160px;
+            font-family: geom;
+         }
+      }
+   }
+   .hero-col1 {
+      width: 100%;
+      font-family: geom;
+   }
+   .hero-body {
+      padding: 0 10px !important;
+   }
+}
+@media only screen and (max-width: 720px) {
+   .hero-content {
+      padding: 0 10px;
+      font-family: geom;
+   }
+   h2 {
+      font-size: 30px !important;
+   }
+   h3 {
+      /* margin-top: 20px !important; */
+      font-family: geom;
+   }
+   .hero {
+      background-position: bottom right !important;
+      font-family: geom;
+
+      height: 800px;
+      background-size: 450px !important;
+   }
+}

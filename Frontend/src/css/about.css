@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: geom;
+  src: url(../public/Geom-Graphic-W03-Bold-Italic.ttf);
+}
+.about {
+  font-family: geom;
+  flex-wrap: wrap;
+  background-color: var(--black);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 455px;
+  background-image: url(../image/AboutUs.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding: 0 40px;
+  .hero-button {
+    padding-top: 78px;
+  }
+
+  h2 {
+    font-family: geom;
+    font-size: 101px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 122px;
+    letter-spacing: 0.06em;
+    color: var(--red);
+  }
+  h3 {
+    font-family: geom;
+    width: 900px;
+    color: var(--white);
+    font-size: 61px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0.06em;
+  }
+  p {
+    font-family: geom;
+    color: var(--white);
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28px;
+  }
+}
+
+.load-more {
+  font-family: geom;
+  background-color: transparent;
+  border: 0px;
+  background-color: #e9162f;
+  column-rule: white;
+  color: white;
+}
+
+.load-more {
+  font-family: geom;
+  background-color: transparent;
+  border: 0px;
+  background-color: #e9162f;
+  column-rule: white;
+  color: white;
+}
+
+.entanur-ul {
+  font-family: geom;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  ol,
+  ul {
+    font-family: geom;
+    padding-left: 0;
+  }
+  ul li {
+    font-family: geom;
+    list-style-type: none;
+    padding: 10px 0;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  li::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../icons/li.svg);
+    width: 14px;
+    height: 24.5px;
+  }
+}
+
+.about-us {
+  font-family: geom;
+  padding: 0 20px;
+  /* height: 900px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  color: white;
+  img {
+    max-width: 100%;
+  }
+  .about-usleft {
+    max-width: 700px;
+  }
+  .about-usright {
+    max-width: 650px;
+    text-align: left;
+    font-family: geom;
+    h3 {
+      font-family: geom;
+      font-size: 32px;
+    }
+    p {
+      font-size: 16px;
+      color: #999999;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-us {
+    h3 {
+      font-family: geom;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      font-family: geom;
+    }
+  }
+  .about-usright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: geom;
+  }
+  ul {
+    margin-top: 40px !important;
+    font-family: geom;
+  }
+  ul li {
+    display: flex !important;
+    justify-content: center;
+    font-family: geom;
+  }
+
+  .about {
+    height: 355px;
+    background-size: cover;
+  }
+  .about-us {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .entanur-ul {
+    display: block;
+    margin: 0 auto;
+    font-family: geom;
+    li {
+      text-align: center;
+      font-family: geom;
+    }
+  }
+  .imag-logos {
+    display: none;
+  }
+  .aboutus {
+    height: 350px;
+    background-size: cover;
+  }
+
+  .hero {
+    width: 100% !important;
+    padding: 0;
+    text-align: center !important;
+    align-items: start;
+    margin-top: 50px;
+    background-position: center center;
+    background-size: contain;
+    font-family: geom;
+  }
+  .hero-col1 {
+    width: 100%;
+    font-family: geom;
+  }
+
+  .imag-logos {
+    display: none;
+  }
+}

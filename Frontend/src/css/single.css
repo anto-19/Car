@@ -1,0 +1,83 @@
+.singlebody {
+  display: flex;
+  justify-content: left;
+  gap: 130px;
+  color: white;
+  flex-wrap: wrap;
+  margin: 0px 0px 150px 184px;
+  font-family: geom;
+}
+@font-face {
+  font-family: geom;
+  src: url(../public/Geom-Graphic-W03-Bold-Italic.ttf);
+}
+.singleimg {
+  background-color: white;
+  font-family: geom;
+  width: 600px;
+
+  height: 450px;
+  background-repeat: no-repeat !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  img {
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+    font-family: geom;
+  }
+}
+section {
+  margin-top: 75px;
+  font-family: geom;
+}
+@media only screen and (max-width: 1200px) {
+  .partser {
+    text-align: center;
+    font-family: geom;
+  }
+  .singlebody {
+    margin: 0px 0px 150px 0;
+    justify-content: center;
+    gap: 40px;
+    font-family: geom;
+  }
+  .singleimg {
+    width: 400px;
+    height: 300px;
+    font-family: geom;
+    img {
+      width: 200px;
+    }
+  }
+}
+
+.images-c {
+  width: 300px !important;
+  height: 200px;
+  justify-content: center;
+}
+
+/* .tabs {
+  font-style: italic;
+  font-size: geom;
+  background-color: black;
+} */
+.mekada {
+  background-color: #191919;
+  font-size: geom;
+  font-style: italic;
+}
+
+/* .nav-tabs {
+  background-color: #191919;
+} */
+
+.yerguhad {
+  background-color: #191919;
+  font-family: geom;
+}

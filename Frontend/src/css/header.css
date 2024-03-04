@@ -1,0 +1,197 @@
+section {
+   position: fixed;
+   top: 0;
+   overflow: hidden;
+   gap: 40px;
+   width: 100% !important;
+   background-color: black;
+   margin-top: 0 !important;
+   z-index: 999;
+   padding: 2px 0;
+   span {
+      padding: 0 50px;
+   }
+}
+
+section .scroll {
+   width: 100%;
+   display: flex;
+}
+section .scroll div {
+   font-size: 14px;
+   white-space: nowrap;
+   color: white;
+   animation: animate 40s linear infinite;
+   animation-delay: -40s !important;
+}
+section .scroll div:nth-child(2) {
+   animation: animate2 40s linear infinite;
+   animation-delay: -20s !important;
+}
+@keyframes animate {
+   0% {
+      transform: translateX(100%);
+   }
+
+   100% {
+      transform: translateX(-100%);
+   }
+}
+@keyframes animate2 {
+   0% {
+      transform: translateX(0%);
+   }
+
+   100% {
+      transform: translateX(-200%);
+   }
+}
+.header {
+   font-size: 16px;
+   background-color: var(--black);
+   padding: 20px 0 !important;
+   display: flex !important;
+   justify-content: space-between !important;
+   margin: 0 95px !important;
+   font-family: geom;
+   .a-tags {
+      a,
+      .a {
+         margin-inline: 20px;
+         font-family: geom;
+      }
+   }
+   @font-face {
+      font-family: geom;
+      src: url(../public/Geom-Graphic-W03-Bold-Italic.ttf);
+   }
+   h1 {
+      font-family: geom;
+   }
+   nav {
+      text-align: center;
+      font-family: geom;
+   }
+   .navbar-toggler {
+      text-decoration: none;
+      border: 0px solid;
+      font-family: geom;
+      /* background-color: red; */
+   }
+   .navbar-toggler:focus {
+      box-shadow: 0 0 0 0;
+      font-family: geom;
+   }
+
+   a,
+   .a {
+      transition: 0.2s ease !important;
+      color: var(--white) !important;
+      font-size: 16px !important;
+      font-style: italic !important;
+      font-weight: 700 !important;
+      line-height: 19px !important;
+      letter-spacing: 0em !important;
+      text-align: center !important;
+      text-decoration: none !important;
+      font-family: geom !important;
+   }
+   .a:hover {
+      color: var(--red) !important;
+      font-family: geom !important;
+   }
+   .bubul:hover {
+      color: white;
+   }
+   .huhu:hover {
+      background-color: #af1527;
+   }
+   .logo {
+      width: 223px;
+   }
+}
+.bubul:hover {
+   color: #af1527;
+}
+
+.navbar-toggler-icon {
+   background-image: url(../icons/burger.svg) !important;
+}
+
+.header-rightcontent {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 32px;
+   color: var(--white);
+   .phone {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      font-family: geom;
+   }
+   .phone::before {
+      content: "";
+      display: block;
+      background: url(../icons/call.svg);
+      width: 26px;
+      height: 26px;
+      font-family: geom;
+   }
+}
+
+.navbar-toggler {
+   color: white;
+   font-family: geom;
+}
+@media only screen and (max-width: 1400px) {
+   .header {
+      margin: 0 15px !important;
+      .a-tags {
+         a {
+            margin-inline: 10px;
+         }
+      }
+   }
+}
+@media only screen and (max-width: 1200px) {
+   .phone {
+      font-size: 15px !important;
+      font-family: geom;
+   }
+   .header-rightcontent {
+      margin-top: 20px;
+      .red-btn {
+         width: 140px;
+         font-size: 15px;
+         font-family: geom;
+      }
+   }
+}
+
+@media only screen and (max-width: 720px) {
+   .header-rightcontent {
+      gap: 10px !important;
+      font-family: geom;
+   }
+   .phone {
+      gap: 3px !important;
+      font-family: geom;
+
+      font-size: 13px !important;
+   }
+
+   .header {
+      a {
+         margin-inline: 0px;
+         font-family: geom;
+      }
+   }
+   .logo {
+      margin-left: 10px;
+      width: 160px !important;
+      font-family: geom;
+   }
+}

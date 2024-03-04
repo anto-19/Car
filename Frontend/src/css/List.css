@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  max-width: fit-content;
+  margin: 0 auto;
+  font-family: geom;
+}
+@font-face {
+  font-family: geom;
+  src: url(../public/Geom-Graphic-W03-Bold-Italic.ttf);
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
+  font-family: geom;
+}
+.input_holder {
+  display: grid;
+  font-family: geom;
+
+  justify-content: center;
+  gap: 20px;
+  input {
+    margin-left: 20px !important;
+    font-family: geom;
+  }
+  button {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: geom;
+  }
+  ul {
+    list-style: none;
+    margin-top: 20px;
+    font-family: geom;
+  }
+
+  li {
+    background-color: gray;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index: 999;
+    font-family: geom;
+  }
+
+  .icon_holder {
+    display: flex;
+    gap: 10px;
+    font-family: geom;
+  }
+
+  .icon {
+    cursor: pointer;
+    font-family: geom;
+  }
+
+  th {
+    border: 1px solid !important;
+    width: 150px;
+    font-family: geom;
+  }
+  textarea {
+    resize: none;
+    margin-left: 20px;
+    font-family: geom;
+  }
+
+  tr,
+  td,
+  th {
+    width: 200px;
+    text-decoration: cadetblue;
+    font-family: geom;
+  }
+}
+.iconnn {
+  margin: 5px auto;
+  color: black;
+  /* background-color: red; */
+  cursor: pointer;
+  font-family: geom;
+}
+.table > :not(caption) > * > * {
+  width: 150px !important;
+  font-family: geom;
+}

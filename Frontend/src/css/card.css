@@ -1,0 +1,72 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  margin: 0 auto;
+  font-family: geom;
+}
+@font-face {
+  font-family: geom;
+  src: url(../public/Geom-Graphic-W03-Bold-Italic.ttf);
+}
+.single-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: geom;
+  background-color: white;
+  text-align: center;
+  max-width: 371px;
+  min-height: 470.01px;
+  border-radius: 20.71px;
+  padding: 30px;
+  gap: 20px;
+  font-family: geom;
+
+  button {
+    width: 100%;
+    height: 50px !important;
+    font-size: 16px !important;
+    font-family: geom;
+  }
+  p {
+    color: black;
+    margin: 0 !important;
+    font-size: 13px !important;
+    font-family: geom;
+  }
+  h3 {
+    color: black;
+    font-size: 18px !important;
+    font-family: geom;
+  }
+}
+
+#false {
+  display: none;
+}
+
+.tabbsss {
+  position: relative !important;
+  z-index: 1;
+  font-family: geom;
+}
+.react-multiple-carousel__arrow--right,
+.react-multiple-carousel__arrow--left {
+  background-color: black !important;
+  width: 20px;
+  z-index: 99;
+}
+@media only screen and (max-width: 1200px) {
+  .single-card {
+    margin-inline: 20px;
+    gap: 10px !important;
+    max-width: 100%;
+  }
+}

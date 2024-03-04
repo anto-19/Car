@@ -1,0 +1,12 @@
+.lop {
+  margin: 30px 20px;
+  color: white;
+  word-spacing: 5px;
+  font-size: 20px;
+  font-family: geom;
+}
+
+@font-face {
+  font-family: geom;
+  src: url(../public/Geom-Graphic-W03-Bold-Italic.ttf);
+}

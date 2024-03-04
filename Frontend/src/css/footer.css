@@ -1,0 +1,282 @@
+.contact {
+   background-image: url(../image/fiora.png);
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: end;
+   color: var(--white);
+   font-family: geom;
+   padding-right: 50px;
+   margin-bottom: 20px;
+   flex-wrap: wrap;
+   font-family: geom;
+   .input {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 20px;
+      font-family: geom;
+   }
+
+   @font-face {
+      font-family: geom;
+      src: url(../public/Geom-Graphic-W03-Bold-Italic.ttf);
+   }
+   input {
+      width: 304.24px;
+      height: 65.66px;
+      top: 296px;
+      border-radius: 8.01px;
+      font-family: geom;
+   }
+}
+.hehe {
+   color: white;
+}
+
+.hehe:hover {
+   color: red;
+}
+
+.form {
+   margin-top: 0px !important;
+   font-family: geom;
+}
+
+.contact-p,
+.callusnowtext,
+.verch {
+   margin: 0 100px !important;
+   font-family: geom;
+}
+.verch {
+   margin: 30px 100px !important;
+   font-family: geom;
+}
+
+.verchin-button {
+   border-radius: 7px;
+   width: 200px;
+   height: 58px;
+   margin-top: 25px;
+   margin-left: 150px;
+   font-family: geom;
+}
+
+.red-butt {
+   color: #000000;
+   font-family: geom;
+   font-size: 16px;
+   cursor: pointer;
+   background-color: var(--white);
+   width: 200px;
+   height: 58px;
+   text-align: center;
+   line-height: 58px;
+   margin: 0;
+   border-radius: 7px;
+   font-family: geom;
+   /* color: var(--white);s */
+   border: none;
+   margin-inline: 10px;
+}
+
+.verch-text {
+   padding-top: 60px;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   font-family: geom;
+}
+.icons {
+   color: var(--white);
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-family: geom;
+   .logo {
+      margin-bottom: 60px;
+      font-family: geom;
+   }
+}
+.icon {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   align-self: center;
+   gap: 10px;
+   margin-bottom: 15px;
+   font-family: geom;
+}
+.zad {
+   img {
+      margin-inline: 5px;
+   }
+}
+
+.links {
+   a {
+      color: #ffffff;
+      text-decoration: none;
+      font-family: geom;
+   }
+   display: grid;
+}
+
+.bubuligg {
+   text-decoration: none;
+   color: white;
+}
+.bubuligg:hover {
+   color: red;
+}
+.ACCEPT {
+   margin-bottom: 20px !important;
+   font-family: geom;
+}
+
+.scroll-top {
+   background-color: var(--red);
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   width: 35px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   svg {
+      width: 25px;
+      height: 30px;
+      polygon {
+         fill: #fff !important;
+      }
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+   .icon {
+      padding: 0 10px;
+   }
+   .contact-p,
+   .callusnowtext,
+   .verch {
+      margin: 0 0 !important;
+      text-align: center;
+      font-family: geom;
+   }
+   .verch {
+      margin: 30px 0 !important;
+      font-family: geom;
+   }
+   .contact {
+      height: 800px;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: start;
+      gap: 90px;
+      background-position: bottom left;
+      padding: 20px;
+      background-size: 650px;
+      font-family: geom;
+   }
+
+   .verch-text {
+      text-align: center !important;
+      font-size: 16px !important;
+      display: flex !important;
+      flex-direction: column !important;
+      font-family: geom;
+   }
+
+   .icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: center !important;
+      justify-content: center;
+      font-size: 16px;
+      img {
+         width: 25px;
+      }
+   }
+   .links {
+      margin: 20px 0px;
+      a {
+         margin: 5px 0;
+      }
+   }
+}
+p {
+   margin-bottom: 0rem !important;
+}
+
+@media only screen and (max-width: 720px) {
+   input {
+      width: 100% !important;
+      height: 65.66px;
+      top: 296px;
+      border-radius: 8.01px;
+      font-family: geom;
+   }
+   .lin {
+      margin: 50px 0;
+      font-family: geom;
+   }
+   .links {
+      font-size: 16px !important;
+      gap: 10px;
+      font-family: geom;
+      margin: 20px 0px;
+      margin: 5px 0;
+   }
+   .icon {
+      gap: 5px !important;
+      font-family: geom;
+      p {
+         font-size: 16px !important;
+         margin: 10px 0 !important;
+         font-family: geom;
+      }
+   }
+   .callusnow {
+      text-align: center !important;
+      font-family: geom;
+   }
+   body {
+      text-align: center !important;
+      font-family: geom;
+   }
+
+   .row {
+      display: block !important;
+      width: 100%;
+      padding: 0 !important;
+   }
+   .col {
+      width: 100% !important;
+      padding: 0 !important;
+      padding-left: 1.7rem !important;
+      div {
+         margin: 15px 0px !important;
+      }
+   }
+   .contact {
+      height: 1000px;
+      padding: 0 !important;
+      background-size: 400px;
+      background-position: bottom left;
+      margin-bottom: 0px;
+      gap: 90px;
+      font-family: geom;
+   }
+   .container {
+      width: 100% !important;
+      padding-left: 1.5rem !important;
+      padding: 0 !important;
+      font-family: geom;
+   }
+   .formmm {
+      width: 100%;
+      font-family: geom;
+   }
+}
